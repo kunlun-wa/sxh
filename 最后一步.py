@@ -96,7 +96,7 @@ elif page == "专业数据分析":
     st.header("1. 各专业男女性别比例")
 
 
-    df_student = pd.read_csv("ks.csv")
+    df_student = pd.read_csv("student_data_adjusted_rounded.csv")
 
 
     gender_count = df_student.groupby(["专业", "性别"]).size().unstack(fill_value=0)
