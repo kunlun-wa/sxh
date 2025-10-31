@@ -36,7 +36,7 @@ if page == "简介页面":
         st.markdown('***')
     with c2:
         
-        st.image('D:/streamlit_env/11.png')
+        st.image('11.png')
     # 项目目标
     st.header("项目目标")
     a1,a2,a3=st.columns(3)
